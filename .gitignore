@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ===============================
+# AI Video Editing Project Files
+# ===============================
+
+# Input / output media files
+*.mp4
+*.wav
+*.mp3
+*.srt
+
+# Generated plots / images (if any)
+*.png
+*.jpg
+*.jpeg
+
+# FFmpeg temporary or log files
+ffmpeg*.log
+
+# Large sample videos (optional)
+Sample.mp4
+
+# OS-specific files
+.DS_Store
+Thumbs.db
